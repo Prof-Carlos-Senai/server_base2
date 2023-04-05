@@ -13,6 +13,8 @@ app.use(express.static('public'))
 /* ------------------------------------ */
 
 /* ---- Rotas do projeto -------------- */
+
+//
 app.get('./src/', (req,res)=>{
     res.render('contato.html')
 })
